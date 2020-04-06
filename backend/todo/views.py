@@ -8,6 +8,6 @@ from .models import Todo
 
 class TodoView(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
-    quaryset = Todo.objects.all()
+    queryset = Todo.objects.all()
 
 # Create your views here.
